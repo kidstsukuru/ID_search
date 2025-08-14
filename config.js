@@ -35,3 +35,14 @@ const SUPABASE_CONFIG = {
 
 // グローバルスコープに設定を公開
 window.SUPABASE_CONFIG = SUPABASE_CONFIG;
+
+
+const SUPABASE_CONFIG = {
+    url: 'https://your-project-url.supabase.co',
+    anonKey: 'your-anon-key-here',
+    serviceRoleKey: 'your-service-role-key-here',
+    admin: {
+        id: 'your-admin-id',
+        password: 'your-admin-password'
+    }
+};
